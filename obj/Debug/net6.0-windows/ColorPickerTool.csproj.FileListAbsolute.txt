@@ -1,0 +1,15 @@
+E:\Scripts\ColorPickerTool\bin\Debug\net6.0-windows\ColorPickerTool.exe
+E:\Scripts\ColorPickerTool\bin\Debug\net6.0-windows\ColorPickerTool.deps.json
+E:\Scripts\ColorPickerTool\bin\Debug\net6.0-windows\ColorPickerTool.runtimeconfig.json
+E:\Scripts\ColorPickerTool\bin\Debug\net6.0-windows\ColorPickerTool.dll
+E:\Scripts\ColorPickerTool\bin\Debug\net6.0-windows\ColorPickerTool.pdb
+E:\Scripts\ColorPickerTool\obj\Debug\net6.0-windows\ColorPickerTool.GeneratedMSBuildEditorConfig.editorconfig
+E:\Scripts\ColorPickerTool\obj\Debug\net6.0-windows\ColorPickerTool.AssemblyInfoInputs.cache
+E:\Scripts\ColorPickerTool\obj\Debug\net6.0-windows\ColorPickerTool.AssemblyInfo.cs
+E:\Scripts\ColorPickerTool\obj\Debug\net6.0-windows\ColorPickerTool.csproj.CoreCompileInputs.cache
+E:\Scripts\ColorPickerTool\obj\Debug\net6.0-windows\ColorPickerTool.dll
+E:\Scripts\ColorPickerTool\obj\Debug\net6.0-windows\refint\ColorPickerTool.dll
+E:\Scripts\ColorPickerTool\obj\Debug\net6.0-windows\ColorPickerTool.pdb
+E:\Scripts\ColorPickerTool\obj\Debug\net6.0-windows\ColorPickerTool.genruntimeconfig.cache
+E:\Scripts\ColorPickerTool\obj\Debug\net6.0-windows\ref\ColorPickerTool.dll
+E:\Scripts\ColorPickerTool\obj\Debug\net6.0-windows\ColorPic.EFDB1E2C.Up2Date
