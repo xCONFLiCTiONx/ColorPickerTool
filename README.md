@@ -2,17 +2,23 @@
 
 # ColorPickerTool
 
-ColorPickerTool is a simple, lightweight utility for Windows that allows you to quickly pick any color from your screen and copy its hex code to the clipboard.
+ColorPickerTool is a lightweight system tray utility for Windows that allows you to quickly pick colors from your screen, manage custom colors across sessions, and copy hex codes to the clipboard.
 
 This tool is designed as an extension for [xToolsMenu](https://github.com/xCONFLiCTiONx/xToolsMenu).
 
 ## Features
 
-- **Full-Screen Capture:** Captures your entire virtual screen (including multi-monitor setups) to pick colors from any application.
-- **High-DPI Support:** Optimized for 4K and Retina displays to ensure accurate color picking.
-- **Clipboard Integration:** Automatically copies the hex code (e.g., `#FFFFFF`) to your clipboard upon selection.
-- **Refinement Dialog:** Opens a standard Windows Color Dialog after picking, allowing you to fine-tune the color and copy the new hex code if updated.
-- **Quick Exit:** Press `Esc` to cancel the color picking process.
+- **System Tray Integration:** Runs quietly in the background as a system tray icon.
+- **Single Instance:** Enforced via a `Mutex` to prevent multiple background instances from running simultaneously.
+- **Quick Actions:**
+  - **Left-click** the tray icon to instantly **Grab Color** from the screen.
+  - **Right-click** the tray menu for options: **Grab Color**, **Pick Color**, and **Exit**.
+- **Full-Screen Capture:** Captures your entire virtual screen (multi-monitor support) with High-DPI (4K/Retina) scaling.
+- **Clipboard Integration & Esc Shortcut:** 
+  - Automatically copies the selected hex code (e.g., `#FFFFFF`) to your clipboard.
+  - Pressing `Esc` during screen selection uses the color already in your clipboard and opens the color picker pre-loaded with it.
+- **Persistent Custom Colors:** Automatically saves and restores your 16 custom color slots (`custom_colors.json`) across sessions.
+- **Refinement Dialog:** Opens the standard Windows Color Dialog after picking or picking directly, allowing fine-tuning and custom color additions.
 
 ## Requirements
 
@@ -21,15 +27,15 @@ This tool is designed as an extension for [xToolsMenu](https://github.com/xCONFL
 
 ## How to Use
 
-1. Launch `ColorPickerTool.exe`.
-2. Your screen will be "frozen" in a capture mode.
-3. Use the crosshair cursor to click on the color you want to pick.
-4. The hex code is immediately copied to your clipboard.
-5. A color dialog will appear. You can further adjust the color here. If you click **OK**, the updated hex code will be copied to your clipboard.
+1. Launch `ColorPickerTool.exe`. It runs resident in your system tray.
+2. **Left-click** the tray icon (or select **Grab Color** from the tray menu) to capture the screen.
+3. Click on any pixel with the crosshair cursor, or press `Esc` to use the color currently in your clipboard.
+4. The hex code is copied to your clipboard, and the Color Dialog opens pre-loaded with your saved custom colors.
+5. Right-click the tray icon to select **Pick Color** or **Exit**.
 
 ## Integration with xToolsMenu
 
-To use this with [xToolsMenu](https://github.com/xCONFLiCTiONx/xToolsMenu), simply add the `ColorPickerTool.exe` to your tools configuration or place it in the designated extensions folder.
+To use this with [xToolsMenu](https://github.com/xCONFLiCTiONx/xToolsMenu), simply add `ColorPickerTool.exe` to your tools configuration or place it in the designated extensions folder.
 
 ---
 
